@@ -3,7 +3,7 @@ import dp from "../assets/ProfilePic.PNG";
 const Bio = () =>{
     return(
         <section>   
-        <img src={dp} />
+        <img src={dp} alt="Profile picture"/>
         <h3>This is my Bio</h3>
         <h4>Software developer</h4>
         </section>
